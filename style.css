@@ -1,1 +1,48 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(20, 48, 139);
+    color: white;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.banner{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.banner img{
+    max-width: 90%;
+    height: auto;
+    border-radius: 5%;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+.atores{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.ator{
+    text-align: center;
+}
+
+.ator img{
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
